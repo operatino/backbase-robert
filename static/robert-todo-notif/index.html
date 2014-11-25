@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
+<head>
+    <title>robert-todo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/robert-todo-notif.css" />
+
+    <g:preferences>
+        <g:preference name="displaytime" label="Time duration to display notification in seconds" viewHint="user" type="range" default="5" min="2" max="10" />
+    </g:preferences>
+</head>
+<body g:onload="requireWidget(__WIDGET__, 'js/robert-todo-notif')" class="rb-robert-todo-notif">
+    <h1 class="rb-robert-todo-notif_title">robert-todo-notif</h1>
+    <div class="rb-robert-todo-notif_container" data-js="rb-robert-todo-notif_container">
+    </div>
+</body>
+</html>
