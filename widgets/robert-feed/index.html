@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
+<head>
+    <title>robert-feed</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/robert-feed.css" />
+
+    <g:preferences>
+        <g:preference name="limit" label="News item limit" viewHint="user" type="range" default="5" min="2" max="10" />
+    </g:preferences>
+</head>
+<body g:onload="requireWidget(__WIDGET__, 'js/robert-feed')" class="rb-robert-feed">
+    <h1 class="rb-robert-feed_title">robert-feed</h1>
+
+    <!--Just imports XML-->
+    <!--<g:include src="http://podcasts.engadget.com/rss.xml">-->
+        <!--<g:http-param name="embed" value="true"/>-->
+        <!--<g:http-preference-param name="limit"/>-->
+    <!--</g:include>-->
+
+    <!--Imports XML proxied through rssPipe from cxp-training bundle, return HTML-->
+    <!--<g:include src="http://podcasts.engadget.com/rss.xml" proxy="true">-->
+        <!--<g:http-proxy-param name="pipe" value="rssPipe"/>-->
+        <!--<g:http-param name="embed" value="true"/>-->
+        <!--&lt;!&ndash;<g:http-preference-param name="limit"/>&ndash;&gt;-->
+    <!--</g:include>-->
+
+    <!--Imports XML proxied through jsonPipe from cxp-training bundle, return JSON-->
+    <!--<g:include src="http://podcasts.engadget.com/rss.xml" proxy="true">-->
+        <!--<g:http-proxy-param name="pipe" value="jsonPipe"/>-->
+        <!--<g:http-param name="embed" value="true"/>-->
+    <!--</g:include>-->
+
+    <template id="rb-robert-feed_list">
+        <ul class="rb-robert-feed_list">
+            {{#list}}
+            <li class="rb-robert-feed_item">
+                <div class="rb-robert-feed_item_title">{{title}}</div>
+                <div class="rb-robert-feed_item_title">{{{description}}}</div>
+            </li>
+            {{/list}}
+        </ul>
+    </template>
+
+</body>
+</html>

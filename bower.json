@@ -1,0 +1,21 @@
+{
+  "name": "backbase-robert",
+  "version": "0.1.0",
+  "homepage": "https://github.com/operatino/backbase-robert",
+  "authors": [
+    "Robert Haritonov <r@rhr.me>"
+  ],
+  "description": "Demo widgets and containers for Backbase CXP",
+  "keywords": [
+    "backbase"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
