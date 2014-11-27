@@ -1,4 +1,4 @@
-define([''], function() {
+define(['jquery'], function($) {
 	'use strict';
 
 	function TodoNotif(widget) {

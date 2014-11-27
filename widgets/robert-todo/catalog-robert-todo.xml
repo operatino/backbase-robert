@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalog>
     <widget>
-        <name>robert-todo-notif</name>
+        <name>robert-todo</name>
         <contextItemName>[BBHOST]</contextItemName>
         <properties>
-            <property label="Title" name="title">
-                <value type="string">robert-todo-notif</value>
-            </property>
             <property name="src">
-                <value type="string">$(contextRoot)/static/robert-todo-notif/index.html</value>
+                <value type="string">$(contextRoot)/static/widgets/robert-todo/index.html</value>
             </property>
             <property name="thumbnailUrl">
                 <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">robert-todo</value>
             </property>
             <property name="TemplateName">
                 <value type="string">Standard_Widget</value>
