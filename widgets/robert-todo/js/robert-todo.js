@@ -1,4 +1,9 @@
-define(['jquery'], function($) {
+define([
+	'jquery',
+	'launchpad/lib/common/util',
+	'launchpad/lib/ui/responsive',
+	'launchpad/lib/ui'
+	], function($, mst, util, responsive, ui) {
 	'use strict';
 
 	// Data storage structure

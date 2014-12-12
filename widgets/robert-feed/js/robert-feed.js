@@ -1,6 +1,6 @@
 define([
 	'jquery',
-	'portalserver/static/bower_components/mustache/mustache'
+	'portalserver/static/backbase-robert/bower_components/mustache/mustache'
 	], function($, mst) {
 	'use strict';
 
