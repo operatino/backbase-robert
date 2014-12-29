@@ -5,7 +5,7 @@
         <contextItemName>[BBHOST]</contextItemName>
         <properties>
             <property name="src">
-                <value type="string">$(contextRoot)/static/backbase-robert/widgets/robert-todo/index.html</value>
+                <value type="string">$(contextRoot)/static/bb_components/robert-todo/index.html</value>
             </property>
             <property name="thumbnailUrl">
                 <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
