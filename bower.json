@@ -1,10 +1,14 @@
 {
-  "name": "backbase-robert",
+  "name": "robert-todo-bundle",
   "version": "0.1.0",
   "homepage": "https://github.com/operatino/backbase-robert",
   "authors": [
     "Robert Haritonov <r@rhr.me>"
   ],
+  "dependencies": {
+    "robert-todo": "https://github.com/operatino/backbase-robert.git#sep-todo",
+    "robert-todo-notif": "https://github.com/operatino/backbase-robert.git#sep-todo-notif"
+  },
   "description": "Demo widgets and containers for Backbase CXP",
   "keywords": [
     "backbase"
