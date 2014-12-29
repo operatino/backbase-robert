@@ -1,5 +1,5 @@
 {
-  "name": "backbase-robert",
+  "name": "robert-todo",
   "version": "0.1.0",
   "homepage": "https://github.com/operatino/backbase-robert",
   "authors": [
@@ -17,5 +17,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "lodash": "~2.4.1"
+  }
 }
