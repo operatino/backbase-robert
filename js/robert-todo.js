@@ -2,8 +2,9 @@ define([
 	'jquery',
 	'launchpad/lib/common/util',
 	'launchpad/lib/ui/responsive',
-	'launchpad/lib/ui'
-	], function($, mst, util, responsive, ui) {
+	'launchpad/lib/ui',
+	'lodash'
+	], function($, mst, util, responsive, ui, _) {
 	'use strict';
 
 	// Data storage structure
