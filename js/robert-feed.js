@@ -1,7 +1,8 @@
 define([
 	'jquery',
-	'bower_components/mustache/mustache'
-	], function($, mst) {
+	'robert-feed/js/modules/inner',
+	'mustache'
+	], function($, inner, mst) {
 	'use strict';
 
 	function Feed(widget) {
@@ -17,8 +18,10 @@ define([
 	Feed.prototype.init = function(){
 		this.$el = $('.rb-robert-feed');
 
-		this.initPrefs();
-		this.drawNews();
+		if (inner) {
+			this.initPrefs();
+			this.drawNews();
+		}
 	};
 
 	Feed.prototype.initPrefs = function(){
