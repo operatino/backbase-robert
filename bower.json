@@ -1,5 +1,5 @@
 {
-  "name": "backbase-robert",
+  "name": "robert-feed",
   "version": "0.1.0",
   "homepage": "https://github.com/operatino/backbase-robert",
   "authors": [
@@ -17,5 +17,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "mustache": "~0.8.2"
+  }
 }
