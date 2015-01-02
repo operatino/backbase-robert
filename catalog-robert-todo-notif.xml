@@ -8,7 +8,7 @@
                 <value type="string">robert-todo-notif</value>
             </property>
             <property name="src">
-                <value type="string">$(contextRoot)/static/bb_components/robert-todo-notif/index.html</value>
+                <value type="string">$(contextRoot)/static/bower_components/robert-todo-notif/index.html</value>
             </property>
             <property name="thumbnailUrl">
                 <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
